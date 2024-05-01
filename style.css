@@ -1,0 +1,25 @@
+
+.comicStoreNavigation div{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body{
+    background-image: url("assets/images/comic-pattern.png");
+    color: white;
+}
+.comicImage{
+    width: 300px;
+}
+.comicCard{
+    width: 300px;
+}
+.comicDetailsContainer{
+    border: dashed;
+    border-radius: 25px;
+}
