@@ -1,17 +1,12 @@
 
 .comicStoreNavigation{
-    /* list-style-type: none; */
-    /* margin: 0; */
-    /* overflow: hidden; */
-    /* float: left; */
     display: flex;
   text-align: center;
   padding: 14px 16px;
-  /* text-decoration: none; */
   justify-content: space-between;
 }
 #sansComic{
-    width: 200px;
+    width: 400px;
 }
 body{
     background-image: url("assets/images/comic-pattern.png");
