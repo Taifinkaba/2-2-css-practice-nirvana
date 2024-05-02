@@ -9,15 +9,19 @@
 </head>
 
 <body>
-    <div class="comicStoreNavigation">
-        <figure>
-            <img src="assets/images/sans-comic-logo.png" alt="comicStoreLogo" id="sansComic" style="vertical-align: top">
-        </figure>
-        <p>Home</p>
-        <p>About</p>
-        <p>Cart</p>
-        <p>Logout</p>
-    </div>
+    <ul class="comicStoreNavigation">
+        <!-- <figure> -->
+            <li class="comicStoreNavigationItem" id="comicStoreMainLogo">
+                <a href="/idex.html" target="_blank">
+                    <img src="assets/images/sans-comic-logo.png" alt="comicStoreLogo" id="sansComic" style="vertical-align: top">
+                </a>
+            </li>
+        <!-- </figure> -->
+        <li class="comicStoreNavigationItem" id="comicStoreMainHome">Home</li>
+        <li class="comicStoreNavigationItem" id="comicStoreMainAbout">About</li>
+        <li class="comicStoreNavigationItem" id="comicStoreMainCart">Cart</li>
+        <li class="comicStoreNavigationItem" id="comicStoreMainLogout">Logout</li>
+    </ul>
     <div class="comicBooksContainer">
         <div class="comicCard">
             <figure>

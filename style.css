@@ -1,9 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .comicStoreNavigation{
     display: flex;
   text-align: center;
   padding: 14px 16px;
   justify-content: space-between;
+  vertical-align:auto;
+  position: sticky;
+}
+.comicStoreNavigationItem{
+    width: fit-content;
+    margin-top: 10px;
 }
 #sansComic{
     width: 400px;
@@ -13,12 +24,12 @@ body{
     color: white;
 }
 .comicImage{
-    width: 300px;
+    width: 250px;
+    display: flex;
 }
 .comicButton{
     display: block;
-    margin-left: 0;
-    margin-right: auto;
+    float: right;
 }
 .comicCard{
     width: 300px;
