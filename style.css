@@ -1,13 +1,17 @@
 
-.comicStoreNavigation div{
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    float: left;
-    display: block;
+.comicStoreNavigation{
+    /* list-style-type: none; */
+    /* margin: 0; */
+    /* overflow: hidden; */
+    /* float: left; */
+    display: flex;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  /* text-decoration: none; */
+  justify-content: space-between;
+}
+#sansComic{
+    width: 200px;
 }
 body{
     background-image: url("assets/images/comic-pattern.png");
@@ -15,6 +19,11 @@ body{
 }
 .comicImage{
     width: 300px;
+}
+.comicButton{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
 }
 .comicCard{
     width: 300px;
